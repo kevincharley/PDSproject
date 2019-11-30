@@ -1,0 +1,13 @@
+@CHARSET "ISO-8859-1";
+.view-img{
+	background-image: url(../images/4.jpg);
+	height:600px;
+	
+	
+}
+.tb{
+	    padding-top: 47px;
+}
+.tb table {
+	background-color: #fff;
+}

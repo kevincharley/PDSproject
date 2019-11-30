@@ -1,0 +1,451 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i");
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px; }
+.header-area{
+
+
+
+}
+.line{
+  height: 4px;
+  background-color: #bab3b3
+}
+.logo{
+    background-color:#f5f5f5;;
+}
+.logo img{
+    width: 233px
+}
+.navigation{
+    padding-left: 563px;
+    /* padding-bottom: 115px; */
+    margin-top: -41px;
+    font-size: large;
+
+}
+.navigation li{
+    
+    display: inline;
+    text-align: center;
+    padding: 14px 16px
+}
+.navigation a{
+       text-decoration: none;
+       color: black;
+       font-weight: bold;
+}
+.navigation li:hover{
+  background-color: #646464;
+ /*  height: 50px; */
+}
+.dropbtn {
+    background-color: rgb(245, 245, 245);
+    color:solid black;
+    padding: 14px;
+    font-size: 16px;
+    height: 46px;
+    border: none;
+    cursor: pointer;
+    width: 90px;
+    font-weight: bold;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+      display: none;
+    /* padding-top: 50px; */
+    margin-top: 10px;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 127px;
+    width: -69px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    /* padding-left: 70px; */
+    margin-left: 300px;
+    box-shadow: 2px 5px 20px 2px #362f2d;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #646464;
+    height:30px;
+  }
+  .bg-img{
+    background-image: url(../images/4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    padding-top: 80px;
+    margin-top: 2px;
+   
+    
+  }
+  /* form content */
+  
+#formContent {
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    background: transparent;
+    padding: 30px;
+    width: 90%;
+    max-width: 450px;
+    position: relative;
+    padding: 0px;
+  
+    margin-left: 761px;
+    margin-top: -9px;
+    -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    text-align: center;
+    padding-top: 50px;
+  }
+  
+  #formFooter {
+    background-color: transparent;
+    /* border-top: 1px solid #dce8f1; */
+    padding: 25px;
+    margin-top: -27px;
+    text-align: center;
+    -webkit-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;
+  }
+  
+input[type=button], input[type=submit], input[type=reset]  {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 15px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 13px;
+    -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+    box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    margin: 5px 20px 40px 20px;
+   
+  }
+  
+  input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover  {
+    background-color: #075217;
+  }
+  
+  input[type=button]:active, input[type=submit]:active, input[type=reset]:active  {
+    -moz-transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+  }
+  
+  input[type=text] ,input[type=password]{
+    background-color: #f6f6f6;
+    border: none;
+    color: #0d0d0d;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    width: 82%;
+    border: 2px solid #f6f6f6;
+   
+    border-radius: 5px 5px 5px 5px;
+  }
+  
+  input[type=text]:focus {
+    background-color: #fff;
+    border-bottom: 2px solid #5fbae9;
+  }
+  input[type=password]:focus{
+   background-color: #fff;
+    border-bottom: 2px solid #5fbae9;
+  }
+  input[type=text]:placeholder {
+    color: #cccccc;
+  }
+  input[type=password]:placeholder{
+  color: #cccccc;
+  }
+  
+  
+  
+  /* OTHERS */
+  
+  *:focus {
+      outline: none;
+  } 
+  .lg-img{
+      color: black;
+  }
+ .lg-heading h2{
+  color: #d8d8d8;
+ }
+
+
+ /* footer */
+ 
+ .site-footer
+ {
+   background-color:#26272b;
+   padding:45px 0 20px;
+   font-size:15px;
+   line-height:24px;
+   color:#737373;
+ }
+ .site-footer hr
+ {
+   border-top-color:#bbb;
+   opacity:0.5
+ }
+ .site-footer hr.small
+ {
+   margin:20px 0
+ }
+ .site-footer h6
+ {
+   color:#fff;
+   font-size:16px;
+   text-transform:uppercase;
+   margin-top:5px;
+   letter-spacing:2px
+ }
+ .site-footer a
+ {
+   color:#737373;
+ }
+ .site-footer a:hover
+ {
+   color:#3366cc;
+   text-decoration:none;
+ }
+ .footer-links
+ {
+   padding-left:0;
+   list-style:none
+ }
+ .footer-links li
+ {
+   display:block
+ }
+ .footer-links a
+ {
+   color:#737373
+ }
+ .footer-links a:active,.footer-links a:focus,.footer-links a:hover
+ {
+   color:#3366cc;
+   text-decoration:none;
+ }
+ .footer-links.inline li
+ {
+   display:inline-block
+ }
+ .site-footer .social-icons
+ {
+   text-align:right
+ }
+ .site-footer .social-icons a
+ {
+   width:40px;
+   height:40px;
+   line-height:40px;
+   margin-left:6px;
+   margin-right:0;
+   border-radius:100%;
+   background-color:#33353d
+ }
+ .copyright-text
+ {
+   margin:0
+ }
+ @media (max-width:991px)
+ {
+   .site-footer [class^=col-]
+   {
+     margin-bottom:30px
+   }
+ }
+ @media (max-width:767px)
+ {
+   .site-footer
+   {
+     padding-bottom:0
+   }
+   .site-footer .copyright-text,.site-footer .social-icons
+   {
+     text-align:center
+   }
+ }
+ .social-icons
+ {
+   padding-left:0;
+   margin-bottom:0;
+   list-style:none
+ }
+ .social-icons li
+ {
+   display:inline-block;
+   margin-bottom:4px
+ }
+ .social-icons li.title
+ {
+   margin-right:15px;
+   text-transform:uppercase;
+   color:#96a2b2;
+   font-weight:700;
+   font-size:13px
+ }
+ .social-icons a{
+   background-color:#eceeef;
+   color:#818a91;
+   font-size:16px;
+   display:inline-block;
+   line-height:44px;
+   width:44px;
+   height:44px;
+   text-align:center;
+   margin-right:8px;
+   border-radius:100%;
+   -webkit-transition:all .2s linear;
+   -o-transition:all .2s linear;
+   transition:all .2s linear
+ }
+ .social-icons a:active,.social-icons a:focus,.social-icons a:hover
+ {
+   color:#fff;
+   background-color:#29aafe
+ }
+ .social-icons.size-sm a
+ {
+   line-height:34px;
+   height:34px;
+   width:34px;
+   font-size:14px
+ }
+ .social-icons a.facebook:hover
+ {
+   background-color:#3b5998
+ }
+ .social-icons a.twitter:hover
+ {
+   background-color:#00aced
+ }
+ .social-icons a.linkedin:hover
+ {
+   background-color:#007bb6
+ }
+ .social-icons a.dribbble:hover
+ {
+   background-color:#ea4c89
+ }
+ @media (max-width:767px)
+ {
+   .social-icons li.title
+   {
+     display:block;
+     margin-right:0;
+     font-weight:600
+   }
+ }
+.com-details{
+  padding-left: 130px;
+    max-width: 548px;
+    margin-top: -75px;
+
+}
+.com-details h3{
+    font-size: xx-large;
+    color: #3c3a3a;
+    max-width: fit-content;
+}
+.card-types{
+  max-width: fit-content;
+  padding-left: 966px;
+
+}
+.card-types h1{
+     font-size: xx-large;
+    color: #3c3a3a;
+    
+}
+.card-types img{
+  max-width: 500px;
+  max-height: 400px;
+  overflow: hidden;
+}
+  .cadd-div button {
+	
+background-color: #4caf50;
+    border: none;
+    color: white;
+   
+    padding: 15px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 13px;
+    -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+    box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    margin: 5px 20px 40px 20px;
+   
+  }
+   .cadd-div button :HOVER {
+	 background-color: #075217;
+}
+.cadd-div button :ACTIVE {
+	 -moz-transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+}
+.cadd-div textarea {
+	background-color: #f6f6f6;
+    border: none;
+    color: #0d0d0d;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    width: 82%;
+    border: 2px solid #f6f6f6;
+  
+    border-radius: 5px 5px 5px 5px;
+}
+.cadd-img {
+	background-image: url(../images/4.jpg);
+	   
+    padding-top: 4px;
+}
+.cadd-img img{
+	   
+
+	}
+	
